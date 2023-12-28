@@ -3,8 +3,8 @@ import CategoryItem from '../categories-item/category-item.component'
 const CategoriesContainer = ({categories}) => {
   return (
         <div className="categories-container">
-            {categories.map((categories) => {
-            return <CategoryItem key={categories.id} categories={categories} />
+            {categories.map((category) => {
+            return <CategoryItem key={category.id} category={category} />
           })}
         </div>
   );
