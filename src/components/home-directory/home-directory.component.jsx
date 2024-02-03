@@ -1,6 +1,6 @@
-import './categories-container.styles.scss'
+import './home-directory.styles.scss'
 import CategoryItem from '../categories-item/category-item.component'
-const CategoriesContainer = ({categories}) => {
+const HomeDirectory = ({categories}) => {
   return (
         <div className="categories-container">
             {categories.map((category) => {
@@ -10,4 +10,4 @@ const CategoriesContainer = ({categories}) => {
   );
 }
 
-export default CategoriesContainer
+export default HomeDirectory
