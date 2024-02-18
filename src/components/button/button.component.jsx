@@ -4,7 +4,8 @@ import "./button.styles.scss"
 const Button = ({children, buttonType, ...otherProps}) => {
   return (
     <div>
-    <button className= {`button-container ${buttonType}`}>
+    <button className= {`button-container ${buttonType}`}
+    {...otherProps}>
     {children}
     </button>
     </div>
